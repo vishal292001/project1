@@ -7,7 +7,9 @@ import test
 
 app = FastAPI()
 
-client = MongoClient("mongodb://database:27017")
+#client = MongoClient("mongodb://database:27017")
+client = MongoClient("mongodb+srv://vishalnitavne29:E2El2yZzFAc39FBv@cluster0.fleb2m5.mongodb.net/test")
+
 print("Connection Successfullll")
 
 class SearchUser(BaseModel):
